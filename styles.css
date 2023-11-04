@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Playfair+Display&display=swap');
+
+* {
+	box-sizing:border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Playfair Display;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	background-color: red;
+}
+
+.video {
+	min-height: 100%;
+	min-width: 100%;
+	
+}
+
+.home-container {
+	display: grid;
+	gap: 40px;
+	grid-template-columns: auto auto auto ;
+	place-items: center;	
+}
+
+.category {
+	padding: 50px;
+	background-color: red;
+	font-size: 50px;
+	height: 300px;
+	width: 500px;
+	background: rgba(10, 153, 64, 0.53);
+	border-radius: 16px;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(5px);	
+	text-align:center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-container {
+	position: relative;
+	/*background-image: url("Campus.jpg");*/
+	background-color: rgb(240, 255, 255);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/*
+.img-container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity: 0.5;
+}
+*/
+.bmcc {
+	position: absolute;
+	top: 20px;
+	left: 135px;
+
+}
+
+.material-symbols-outlined {
+	scale: 3;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.languages {
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-weight: bold;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
+	right: -80px;
+	top: 50%;
+	text-align: center;
+	color: white;
+	background-color: blue;
+	transform: translateY(-50%) rotate(90deg);
+}
